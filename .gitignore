@@ -1,8 +1,10 @@
 node_modules/
 src/
-links.html
-page.html
-gulpfile.js
-package.json
-package-lock.json
-.DS_Store
+f/
+html/
+/links.html
+/page.html
+/gulpfile.js
+/package.json
+/package-lock.json
+/.DS_Store
