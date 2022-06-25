@@ -22,13 +22,13 @@
 	crossorigin="anonymous"
 ></script>
 <link rel="stylesheet" href="../dist/css/style.min.css" />
-		<title>Document</title>
+		<title>CV Paweł Niedużak</title>
 	</head>
 	<body>
 		<div class="wrapper m-3">
 			<header>
 								<div class="container">
-					<div class="row h-s">
+					<div class="row header-flex">
 						<div class="col-sm-12 col-md-6 col-lg-4 pt-3 portrait-div">
 							<div class="portrait"></div>
 						</div>
@@ -40,55 +40,55 @@
 			</header>
 			<main>
 				<div class="container">
-					<div class="row">
-						<div class="col-sm-12 main-section">
+					<div class="row main-flex">
+						<div class="main-section">
 							<div class="col-sm-12 col-lg-6 about-me mt-4">
 								<h2>About me</h2>
-								<div class="pattern-dots-sm text-white h-1 separator"></div>
+								<div class="pattern-dots-sm text-black h-1 separator"></div>
 								<div class="pattern-dots-md separator-md"></div>
-								<p>
-									I'm a self-taught front-end. I started my learning from the
-									Udemy courses, now i'm practicing my skills from every source.
-									I would like to be fullstack in the future.
-								</p>
+								<div class="about-me-container">
+									<p>
+										I'm a self-taught front-end. I started my learning from the
+										Udemy courses, now i'm practicing my skills from every
+										source. I would like to be fullstack in the future.
+									</p>
+								</div>
 							</div>
 							<div class="col-sm-12 col-lg-6 projects mt-4">
 								<h2>Projects</h2>
-								<div class="pattern-dots-sm text-white h-1 separator"></div>
+								<div class="pattern-dots-sm text-black h-1 separator"></div>
 								<div class="pattern-dots-md separator-md"></div>
 								<p>
 									My first project was a resume. That project isn't responsive,
 									and has a few shortcomings but i'm a proud from myself that i
 									made this one. I used there grid, flexbox, during creating
-									this project i used terminal. The entire project was shared on
-									github pages. But now i chose that RWD resume will be at
-									github pages.
+									this project i used terminal.
 								</p>
 
-								<p class="d-inline-block mt-3">Project:</p>
+								<p class="d-inline-block mt-3 cv">Project:</p>
 								<a
+									target="_blank"
+									rel="noopener"
 									class="cv-link"
 									href="https://62b57497bd7ae853dd22cf06--chipper-travesseiro-5154d4.netlify.app/"
 									>pawel-cv</a
 								>
 								<p class="mt-3 mb-5">
-									My secont project is a RWD resume. I used there bootstrap,
+									My secont project is this RWD resume. I used there bootstrap,
 									taskrunner Gulp and modules like browserSync. The entire
 									project was shared on github pages.
 								</p>
 							</div>
 							<div class="col-sm-12 col-lg-6 skills mt-4">
 								<h2>Skills</h2>
-								<div class="pattern-dots-sm text-white h-1 separator"></div>
+								<div class="pattern-dots-sm text-black h-1 separator"></div>
 								<div class="pattern-dots-md separator-md"></div>
 								<p>
 									Regarding learning javascript, i'm just starting to learn it.
-									I know it can be a big difficult but i learn quickly and hope
-									in your company i could do it much faster.
 								</p>
 								<p>
-									I am curently working in a cafe. I was a manager ther for a
-									year. I think that I have a high level of communication with
+									I am curently working in a cafe. I was the manager for almost
+									a year. I think that I have a high level of communication with
 									the client. I also have a high level of preparing delicious
 									coffee. I learned in this cafe many skills, i understood that
 									the most important thing during work with clients is a
@@ -99,23 +99,33 @@
 							</div>
 							<div class="col-sm-12 col-lg-6 contact mt-4">
 								<h2>Contact</h2>
-								<div class="pattern-dots-sm text-white h-1 separator"></div>
+								<div class="pattern-dots-sm text-black h-1 separator"></div>
 								<div class="pattern-dots-md separator-md"></div>
 								<div class="contact-list">
 									<li>
 										<ol>
 											<i class="fa-solid fa-at contact-icon"></i
-											><a href="mailto:pa.nieduzak@gmail.com"
+											><a
+												target="_blank"
+												rel="noopener"
+												href="mailto:pa.nieduzak@gmail.com"
 												>pa.nieduzak@gmail.com</a
 											>
 										</ol>
 										<ol>
 											<i class="fa-brands fa-github contact-icon"></i>
-											<a href="https://github.com/DireAunAmi">GitHub</a>
+											<a
+												target="_blank"
+												rel="noopener"
+												href="https://github.com/DireAunAmi"
+												>GitHub</a
+											>
 										</ol>
 										<ol>
 											<i class="fa-solid fa-phone contact-icon"></i
-											><a href="tel:795108705">+48 795-108-705</a>
+											><a target="_blank" rel="noopener" href="tel:795108705"
+												>+48 795-108-705</a
+											>
 										</ol>
 									</li>
 								</div>
@@ -125,8 +135,8 @@
 				</div>
 			</main>
 			<footer>
-				<div class="container">
-					<div class="row clause">
+				<div class="container d-flex footer-clause">
+					<div class="row clause footer-flex">
 						<p>
 							I agree to the processing of personal data provided in this
 							document for realising the recruitment process pursuant to the
